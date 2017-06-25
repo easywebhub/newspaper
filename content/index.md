@@ -1,12 +1,12 @@
 ---json
 {
+    "title": "Trang Chủ",
     "slug": "",
-    "title": "EasyWeb Skeleton",
-    "category": "",
-    "tag": [],
     "layout": "index.html",
-    "date": "2017-04-18T04:38:58.585Z",
-    "publishDate": "2017-04-18T04:38:58.585Z",
-    "draft": false
+    "tag": [],
+    "date": "2017-04-18T04:38:58.000Z",
+    "publishDate": "2017-04-18T04:38:58.000Z",
+    "draft": false,
+    "__content__": ""
 }
 ---

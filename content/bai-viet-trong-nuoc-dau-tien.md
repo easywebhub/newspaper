@@ -8,9 +8,9 @@
     "date": "2017-06-25T07:16:33.000Z",
     "publishDate": "",
     "draft": false,
-    "mo-ta-ngan": "",
+    "mo-ta-ngan": "TTO - Trong lộ trình thực hiện tham vọng này, nước Pháp dự kiến thử nghiệm tàu cao tốc không người lái chở hàng vào năm 2019 và chở người và",
     "anh-dai-dien": "",
-    "tac-gia": "",
+    "tac-gia": "ĐỖ DƯƠNG",
     "__content__": ""
 }
 ---

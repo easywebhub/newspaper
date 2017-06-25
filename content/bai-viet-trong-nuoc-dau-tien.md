@@ -14,10 +14,6 @@
     "__content__": ""
 }
 ---
-<p>TTO - Trong lộ tr&igrave;nh thực hiện tham vọng n&agrave;y, nước Ph&aacute;p dự kiến thử nghiệm t&agrave;u cao tốc kh&ocirc;ng người l&aacute;i chở h&agrave;ng v&agrave;o năm 2019 v&agrave; chở người v&agrave;o năm &nbsp;2023.</p>
-
-<p><img alt="Một tàu cao tốc TGV thuộc SNCF - Ảnh: Francetvinfo" src="http://static.new.tuoitre.vn/tto/i/s626/2017/06/19/12684483-1497842081.jpg" style="height:250px; width:665px" /></p>
-
 <p>Theo trang tin Ibtimes, c&ocirc;ng ty đường sắt Ph&aacute;p SNCF cho biết đang bắt tay v&agrave;o c&aacute;c dự &aacute;n ph&aacute;t triển c&aacute;c t&agrave;u cao tốc (TGV) tự động.</p>
 
 <p>Hiện tại c&aacute;c t&agrave;u TGV đang đạt vận tốc khoảng 200 dặm/giờ (322km/h) v&agrave; c&oacute; lộ tr&igrave;nh di chuyển tới hơn 230 th&agrave;nh phố tr&ecirc;n to&agrave;n nước Ph&aacute;p. Kh&ocirc;ng chỉ hoạt động trong nội địa, c&aacute;c tuyến TGV c&ograve;n đưa h&agrave;nh kh&aacute;ch tới những nước EU kh&aacute;c l&agrave; Bỉ, T&acirc;y Ban Nha v&agrave; &Yacute;.</p>

@@ -1,0 +1,133 @@
+{
+    "_$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "slug": {
+            "type": "string",
+            "propertyOrder": 1,
+            "readOnly": true,
+            "options": {
+                "hidden": false
+            }
+        },
+        "title": {
+            "type": "string",
+            "propertyOrder": 5,
+            "options": {
+                "hidden": false
+            }
+        },
+        "category": {
+            "type": "string",
+            "propertyOrder": 2,
+            "options": {
+                "hidden": false
+            }
+        },
+        "tag": {
+            "type": "array",
+            "format": "checkbox",
+            "propertyOrder": 3,
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+                "enum": []
+            }
+        },
+        "layout": {
+            "type": "string",
+            "propertyOrder": 4,
+            "options": {
+                "hidden": true
+            }
+        },
+        "date": {
+            "type": "string",
+            "format": "datetime",
+            "propertyOrder": 9,
+            "options": {
+                "hidden": false
+            }
+        },
+        "publishDate": {
+            "type": "string",
+            "format": "datetime",
+            "propertyOrder": 0,
+            "options": {
+                "hidden": true
+            }
+        },
+        "draft": {
+            "type": "boolean",
+            "format": "checkbox",
+            "propertyOrder": 10,
+            "options": {
+                "hidden": true
+            }
+        },
+        "__content__": {
+            "title": "Nội Dung Chính",
+            "description": "",
+            "default": "",
+            "format": "text",
+            "required": false,
+            "readOnly": false,
+            "pattern": "",
+            "propertyOrder": 11,
+            "minLength": 0,
+            "maxLength": 140,
+            "options": {
+                "hidden": false
+            },
+            "type": "string"
+        },
+        "mo-ta-ngan": {
+            "title": "Mô tả ngắn",
+            "description": "",
+            "default": "",
+            "format": "textarea",
+            "required": false,
+            "readOnly": false,
+            "pattern": "",
+            "propertyOrder": 6,
+            "minLength": 0,
+            "maxLength": 140,
+            "options": {
+                "hidden": false
+            },
+            "type": "string"
+        },
+        "anh-dai-dien": {
+            "title": "Ảnh Đại Diện",
+            "description": "",
+            "default": "",
+            "format": "upload",
+            "required": false,
+            "readOnly": false,
+            "pattern": "",
+            "propertyOrder": 7,
+            "minLength": 0,
+            "maxLength": 140,
+            "options": {
+                "hidden": false
+            },
+            "type": "string"
+        },
+        "tac-gia": {
+            "title": "Tác Giả",
+            "description": "",
+            "default": "",
+            "format": "text",
+            "required": false,
+            "readOnly": false,
+            "pattern": "",
+            "propertyOrder": 8,
+            "minLength": 0,
+            "maxLength": 140,
+            "options": {
+                "hidden": false
+            },
+            "type": "string"
+        }
+    }
+}

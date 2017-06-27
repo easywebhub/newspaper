@@ -70,8 +70,6 @@ window.admicro_analytics_q.push({event: "pageviews", domain: "nhipsongso.tuoitre
 <header class="header">
 	<div class="inner">
 		<a class="btn-menu" href="javascript:void(0)" title="Chuyên Mục"><img class="wi-icon wi-icon-menu" alt="" src="http://static.new.tuoitre.vn/assets/tto/b73a59f6v790/images/transparent.png">Chuyên Mục</a>	
-		<!--<a class="logo" href="http://tuoitre.vn" title="Tuổi Trẻ"><img alt="" src="http://static.new.tuoitre.vn/assets/tto/b73a59f6v790/images/logo.png"></a>	-->
-		<!--<a class="logo-1" href="index.html" title="Nhịp Sống Số"><img alt="" src="http://static.new.tuoitre.vn/assets/tto/b73a59f6v790/images/logo-nss.png"> </a>	-->
 		<ul class="list-social">
 			<li><a class="wi-icon wi-icon-face" href="http://www.facebook.com/plugins/like.php?href=https://www.facebook.com/baotuoitre&width&layout=button&action=like&show_faces=false&share=true&height=35" title="facebook"></a></li>
 			<li><a class="wi-icon wi-icon-tw" href="http://twitter.com/home?status=https://www.facebook.com/baotuoitre" title="tw"></a></li>
@@ -96,45 +94,16 @@ window.admicro_analytics_q.push({event: "pageviews", domain: "nhipsongso.tuoitre
 				
 				
 			</ul> 
-		<!--<ul class="list-cata">
-			<li class="active"><a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi" title="Chính trị Xã hội"> Chính trị Xã hội</a></li>
-			<li><a href="http://tuoitre.vn/tin/phap-luat" title="Pháp luật">Pháp luật</a></li>
-			<li><a href="http://tuoitre.vn/tin/the-gioi" title="Thế giới"> Thế giới</a></li>
-			<li><a href="http://tuoitre.vn/tin/kinh-te" title="Kinh tế"> Kinh tế</a></li>
-			<li><a href="http://tuoitre.vn/tin/giao-duc" title="Giáo dục">  Giáo dục</a></li>
-			<li><a href="http://tuoitre.vn/tin/van-hoa-giai-tri" title="Văn hóa - Giải trí"> Văn hóa - Giải trí</a></li>
-			<li><a href="http://nhipsongso.tuoitre.vn" title="Nhịp sống số"> Nhịp sống số</a></li>
-			<li><a href="http://tuoitre.vn/tin/nhip-song-tre" title="Nhịp sống trẻ"> Nhịp sống trẻ</a></li>
-			<li><a href="http://tuoitre.vn/tin/ban-doc" title="Bạn đọc"> Bạn đọc</a></li>
-			<li><a href="http://dulich.tuoitre.vn" title="Du lịch"> Du lịch</a></li>
-			<li><a href="http://thethao.tuoitre.vn" title="Thể thao"> Thể thao</a></li>
-			<li><a href="http://tuoitre.vn/tin/song-khoe" title="Sống khỏe">  Sống khỏe</a></li>
-			<li><a href="http://tuoitre.vn/tin/can-biet" title="Cần biết"> Cần biết</a></li>
-			<li><a href="http://media.tuoitre.vn" title="Media"> Media</a></li>
-			<li class="style-1"><a href="http://tuoitre.vn/tin/tuoi-tre-cuoi-tuan" title="Tuổi trẻ cuối tuần">Tuổi trẻ cuối tuần</a></li>
-			<li class="style-1 active"><a href="http://tuoitre.vn/tin/tuoi-tre-cuoi" title="Tuổi trẻ cười">Tuổi trẻ cười</a></li>
-			<li class="style-1"><a href="http://tv.tuoitre.vn" title="Tuổi trẻ TV">Tuổi trẻ TV</a></li>
-		</ul> -->
+		
 	</div>	
 </header><div class="wrapper">
     <nav class="main-menu">
 			<ul class="clearfix">
 				<li class="menu-home"><a href="index.html" title="Nhịp sống số">Nhịp sống số</a></li>
+                {{#each AllCategory.children }}
+                <li class="menu-dien-thoai"><a href="/{{href}}" title="{{displayName}}">{{displayName}}</a></li>
+                 {{/each}}
 				<li class="menu-dien-thoai"><a href="http://nhipsongso.tuoitre.vn/tin/dien-thoai" title="Điện thoại">Điện thoại</a></li>
-				<li class="menu-thiet-bi-so"><a href="http://nhipsongso.tuoitre.vn/tin/thiet-bi-so" title="Thiết bị số">Thiết bị số</a></li>
-<li class="menu-thi-truong"><a href="http://nhipsongso.tuoitre.vn/tin/thi-truong" title="Thị trường">Thị trường</a></li>
-<li class="menu-danh-gia-san-pham"><a href="http://nhipsongso.tuoitre.vn/tin/danh-gia-san-pham" title="Đánh giá sản phẩm">Đánh giá</a></li>
-				<li class="menu-blog"><a href="http://nhipsongso.tuoitre.vn/tin/blog" title="Blog công nghệ">Blog</a></li>
-				<li class="menu-bao-mat"><a href="http://nhipsongso.tuoitre.vn/tin/bao-mat" title="Bảo mật">Bảo mật</a></li>
-				<li class="menu-tu-van-tieu-dung"><a href="http://nhipsongso.tuoitre.vn/tin/tu-van-tieu-dung" title="Tư vấn tiêu dùng">Tư vấn</a></li>
-				<li class="menu-thu-thuat-kien-thuc"><a href="http://nhipsongso.tuoitre.vn/tin/thu-thuat-kien-thuc" title="Thủ thuật - Kiến thức">Thủ thuật- Kiến thức</a></li>
-				<li class="menu-nhip-cau"><a href="http://nhipsongso.tuoitre.vn/tin/nhip-cau" title="Nhịp cầu">Nhịp cầu</a></li>
-				<li class="btn-search" style="padding:0px">
-					<a id="link-search"  title="Search"><img class="wi-icon wi-icon-search" alt="" src="http://static.new.tuoitre.vn/assets/tto/b73a59f6v790/images/transparent.png"></a>
-					<form class="frm-search" id="search-frm" method="get" action="http://tuoitre.vn/tim-kiem/tat-ca/">
-						<input class="txt-search" type="text" name="q" id="search-txt">
-					</form>
-				</li> 
 			</ul>
 		</nav>    <section class="main">
         			<div class="highlight-top">

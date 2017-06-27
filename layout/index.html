@@ -83,13 +83,12 @@ window.admicro_analytics_q.push({event: "pageviews", domain: "nhipsongso.tuoitre
 <ul class="list-cata">
                 {{#each AllCategory.children }}
                 <li>
-					<a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi" title="Chính trị Xã hội">{{displayName}}</a>
+					<a href="/{{href}}" title="{{displayName}}">{{displayName}}</a>
+
 					<ul class="sub-cata">
-						<li><a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi/thoi-su-suy-nghi" title="Thời sự - suy nghỉ">Thời sự - suy nghỉ</a></li>
-						<li><a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi/phong-su-ky-su" title="Phóng sự - ký sự">Phóng sự - ký sự</a></li>
-						<li><a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi/moi-truong" title="Môi trường">Môi trường</a></li>
-						<li><a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi/chuyen-thuong-ngay" title="Chuyện thường ngày">Chuyện thường ngày</a></li>
-						<li><a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi/tieu-diem" title="Tiêu điểm">Tiêu điểm</a></li>
+                         {{#each this.children }}
+						<li><a href="/{{href}}" title="{{displayName}}">{{displayName}}</a></li>
+						{{/each}}
 					</ul>
 				</li>
                 {{/each}}

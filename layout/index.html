@@ -81,8 +81,9 @@ window.admicro_analytics_q.push({event: "pageviews", domain: "nhipsongso.tuoitre
 		</ul>
 
 <ul class="list-cata">
-				<li>
-					<a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi" title="Chính trị Xã hội"> Chính trị Xã hội</a>
+                {{#each AllCategory.children }}
+                <li>
+					<a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi" title="Chính trị Xã hội">{{displayName}}</a>
 					<ul class="sub-cata">
 						<li><a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi/thoi-su-suy-nghi" title="Thời sự - suy nghỉ">Thời sự - suy nghỉ</a></li>
 						<li><a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi/phong-su-ky-su" title="Phóng sự - ký sự">Phóng sự - ký sự</a></li>
@@ -91,6 +92,8 @@ window.admicro_analytics_q.push({event: "pageviews", domain: "nhipsongso.tuoitre
 						<li><a href="http://tuoitre.vn/tin/chinh-tri-xa-hoi/tieu-diem" title="Tiêu điểm">Tiêu điểm</a></li>
 					</ul>
 				</li>
+                {{/each}}
+				
 				
 				
 			</ul> 

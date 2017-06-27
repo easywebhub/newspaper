@@ -86,36 +86,32 @@
 		<section class="content">
 			<h1 class="title-1"><span>Tin mới nhất</span></h1>
 			<div id="newhot_most_content" class="newhot_most_content">
-                {{#each AllCategory.children}}
-                    {{#each (first this.files 3)}}
-                    <article class="block-new">
-                        <a class="img_254_143" href="/{{slug}}" title="">
-                            {{#if anh-dai-dien}}
-                            <img src="{{anh-dai-dien}}" alt="Facebook Group bổ sung nhiều công cụ mới"/>
-                            {{else}}
-                            <img src="https://vignette3.wikia.nocookie.net/lego/images/a/ac/No-Image-Basic.png/revision/latest/scale-to-width-down/480?cb=20130819001030" alt="Facebook Group bổ sung nhiều công cụ mới"/>
-                            {{/if}}
-                        </a>
-                        <a class="tip" href="/{{../this.href}}">{{../this.displayName}}</a>
-                        <h3>
-                            <a href="/{{slug}}" title="{{title}}">
-                            {{title}}</a>
-                        </h3>
-                        <div class="date">
-                                {{#if tac-gia}}
-                                <strong>{{tac-gia}}</strong>
-                            {{else}}
-                                <span>Khuyet danh</span>
-                            {{/if}}
-                            <span> {{moment date lang="vi" format="dddd, DD MM YYYY HH:mm"}}</span>
+                {{#each pagination.files}}
+                <article class="block-new">
+                    <a class="img_254_143" href="/{{slug}}" title="">
+                        {{#if anh-dai-dien}}
+                        <img src="{{anh-dai-dien}}" alt=""/>
+                        {{else}}
+                        <img src="https://vignette3.wikia.nocookie.net/lego/images/a/ac/No-Image-Basic.png/revision/latest/scale-to-width-down/480?cb=20130819001030" alt="Facebook Group bổ sung nhiều công cụ mới"/>
+                        {{/if}}
+                    </a>
+                    <a class="tip" href="/{{../this.href}}">{{../this.displayName}}</a>
+                    <h3>
+                        <a href="/{{slug}}" title="{{title}}">
+                        {{title}}</a>
+                    </h3>
+                    <div class="date">
+                            {{#if tac-gia}}
+                            <strong>{{tac-gia}}</strong>
+                        {{else}}
+                            <span>Khuyet danh</span>
+                        {{/if}}
+                        <span> {{moment date lang="vi" format="dddd, DD MM YYYY HH:mm"}}</span>
 
-                        </div>
-                        <p>{{mo-ta-ngan}}</p>
-                    </article>
-                    {{/each}}
+                    </div>
+                    <p>{{mo-ta-ngan}}</p>
+                </article>
                 {{/each}}
-                
-			
 			</div>
 			<a class="btn-loadmore" onClick="return viewMore('http://nhipsongso.tuoitre.vn/', 'nhip-song-so-home', '2830', 'nss_new_custom_list', '57e049550090e13925a6489ff4460776dcd1da66', this);">xem thêm<span></span></a>
 			<input type="hidden" id="page_number" value="1" />

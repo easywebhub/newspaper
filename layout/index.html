@@ -164,6 +164,7 @@
 		<section class="content">
 			<h1 class="title-1"><span>Tin mới nhất</span></h1>
 			<div id="newhot_most_content" class="newhot_most_content">
+                {{#each (first AllCategory.files 10)}}
 				<article class="block-new">
 					<a class="img_254_143" href="http://nhipsongso.tuoitre.vn/tin/20170623/facebook-group-bo-sung-nhieu-cong-cu-moi/1336866.html"
 						title="">
@@ -179,41 +180,8 @@
 						</div>
 						<p>TTO - Nhằm gia tăng tính tiện lợi cho quản trị nhóm, Facebook bổ sung nhiều công cụ mới cho Group.</p>
 				</article>
-				
-				<article class="block-new">
-					<a class="img_254_143" href="http://nhipsongso.tuoitre.vn/tin/20170619/steve-jobs-da-bi-thuyet-phuc-ve-iphone-nhu-the-nao/1333803.html"
-						title="">
-						<img src="http://static.new.tuoitre.vn/tto/i/s490/2017/06/18/mikebell02-1497799060.jpg" alt="​Steve Jobs đã bị thuyết phục về iPhone như thế nào"
-						/> </a>
-						<a class="tip" href="index.html">Nhịp sống số</a>
-						<h3>
-							<a href="http://nhipsongso.tuoitre.vn/tin/20170619/steve-jobs-da-bi-thuyet-phuc-ve-iphone-nhu-the-nao/1333803.html" title="​Steve Jobs đã bị thuyết phục về iPhone như thế nào">​Steve Jobs đã bị thuyết phục về iPhone như thế nào </a>
-						</h3>
-						<div class="date">
-							<strong>D. KIM THOA </strong> 19/06/2017 06:51
-							<a class="tip-cm" href="javascript:void(0);" title="1">1<span></span></a>
-
-						</div>
-						<p>TTO - Như đã nói, từ những khó khăn về hạ tầng mạng và một số nguyên nhân khác, CEO Steve Jobs đã từng nhiều lần gạt
-							đi ý tưởng Apple sản xuất điện thoại.</p>
-				</article>
-				<article class="block-new">
-					<a class="img_254_143" href="http://nhipsongso.tuoitre.vn/tin/20170618/khong-chup-anh-chan-dung-thue-bao-di-dong-se-bi-cat/1333788.html"
-						title="">
-						<img src="http://static.new.tuoitre.vn/tto/i/s490/2017/06/18/hht-sim-3-1497798961.jpg" alt="Không chụp ảnh chân dung, thuê bao di động sẽ bị cắt"
-						/> </a>
-						<a class="tip" href="index.html">Nhịp sống số</a>
-						<h3>
-							<a href="http://nhipsongso.tuoitre.vn/tin/20170618/khong-chup-anh-chan-dung-thue-bao-di-dong-se-bi-cat/1333788.html" title="Không chụp ảnh chân dung, thuê bao di động sẽ bị cắt">Không chụp ảnh chân dung, thuê bao di động sẽ bị cắt </a>
-						</h3>
-						<div class="date">
-							<strong>ĐỨC THIỆN</strong> 18/06/2017 21:58
-							<a class="tip-cm" href="javascript:void(0);" title="220">220<span></span></a>
-
-						</div>
-						<p>TTO - Nếu không bổ sung ảnh chân dung thì thuê bao có thể bị tạm dừng cung cấp dịch vụ viễn thông một chiều
-							sau 15 ngày và tạm dừng cung cấp dịch vụ viễn thông hai chiều sau 15 ngày tiếp theo.</p>
-				</article>
+				{{/each}}
+			
 			</div>
 			<a class="btn-loadmore" onClick="return viewMore('http://nhipsongso.tuoitre.vn/', 'nhip-song-so-home', '2830', 'nss_new_custom_list', '57e049550090e13925a6489ff4460776dcd1da66', this);">xem thêm<span></span></a>
 			<input type="hidden" id="page_number" value="1" />

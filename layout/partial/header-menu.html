@@ -1,0 +1,35 @@
+<header class="header">
+	<div class="inner">
+		<a class="btn-menu" href="javascript:void(0)" title="Chuyên Mục"><img class="wi-icon wi-icon-menu" alt="" src="http://static.new.tuoitre.vn/assets/tto/b73a59f6v790/images/transparent.png">Chuyên Mục</a>	
+		<ul class="list-social">
+			<li><a class="wi-icon wi-icon-face" href="http://www.facebook.com/plugins/like.php?href=https://www.facebook.com/baotuoitre&width&layout=button&action=like&show_faces=false&share=true&height=35" title="facebook"></a></li>
+			<li><a class="wi-icon wi-icon-tw" href="http://twitter.com/home?status=https://www.facebook.com/baotuoitre" title="tw"></a></li>
+			<li><a class="wi-icon wi-icon-google" href="https://plus.google.com/share?url=https://www.facebook.com/baotuoitre" title="google"></a></li>
+			<!-- <li><a class="wi-icon wi-icon-rss" href="#" title="rss"></a></li> -->
+			<li><a class="wi-icon wi-icon-mail" href="mailto:?subject=Xem tin tức mới nhất tại tuoitre.vn&body=Xem tin tức mới nhất tại tuoitre.vn" title="Xem tin tức mới nhất tại tuoitre.vn"></a></li>
+		</ul>
+
+            <ul class="list-cata">
+                {{#each AllCategory.children }}
+                <li>
+					<a href="/{{href}}" title="{{displayName}}">{{displayName}}</a>
+
+					<ul class="sub-cata">
+                        {{#each this.children }}
+						<li><a href="/{{href}}" title="{{displayName}}">{{displayName}}</a></li>
+						{{/each}}
+					</ul>
+				</li>
+                {{/each}}
+			</ul> 
+		
+	</div>	
+</header><div class="wrapper">
+    <nav class="main-menu">
+			<ul class="clearfix">
+				<li class="menu-home"><a href="index.html" title="Nhịp sống số">Trang chủ</a></li>
+                {{#each AllCategory.children }}
+                <li class="menu-dien-thoai"><a href="/{{href}}" title="{{displayName}}">{{displayName}}</a></li>
+                 {{/each}}
+			</ul>
+		</nav>

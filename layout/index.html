@@ -181,7 +181,12 @@
                                 {{title}}</a>
                             </h3>
                             <div class="date">
-                                <strong>PHONG VÂN</strong>
+                                 {{#if tac-gia}}
+                                    <strong>{{tac-gia}}</strong>
+                                {{else}}
+                                    <strong>Chua co tac gia</strong>
+                                {{/if}}
+                                {{date}}
 
                             </div>
                             <p>{{mo-ta-ngan}}</p>

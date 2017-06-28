@@ -29,8 +29,9 @@
 			<ul class="clearfix">
 				<li class="menu-home"><a href="/" title="Trang chủ">Trang chủ</a></li>
                 {{#each global.menu-order}}
+                    <li class="menu-dien-thoai"><a href="/{{href}}" title="{{displayName}}">{{this}}</a></li>
                     {{#each AllCategory.children }}
-                        <li class="menu-dien-thoai"><a href="/{{href}}" title="{{displayName}}">{{this}}</a></li>
+                        
                       {{#is name ../this}}
                         <li class="menu-dien-thoai"><a href="/{{href}}" title="{{displayName}}">{{displayName}}</a></li>
                        {{/is}}

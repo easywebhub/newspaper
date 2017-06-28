@@ -10,16 +10,20 @@
 		</ul>
 
             <ul class="list-cata">
-                {{#each AllCategory.children }}
-                <li>
-					<a href="/{{href}}" title="{{displayName}}">{{displayName}}</a>
+                {{#each global.menu-order}}
+                    {{#each ../AllCategory.children }}
+                    {{#is this.category ../this}}
+                    <li>
+                        <a href="/{{href}}" title="{{displayName}}">{{displayName}}</a>
 
-					<ul class="sub-cata">
-                        {{#each this.children }}
-						<li><a href="/{{href}}" title="{{displayName}}">{{displayName}}</a></li>
-						{{/each}}
-					</ul>
-				</li>
+                        <ul class="sub-cata">
+                            {{#each this.children }}
+                            <li><a href="/{{href}}" title="{{displayName}}">{{displayName}}</a></li>
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/is}}
+                    {{/each}}
                 {{/each}}
 			</ul> 
 		

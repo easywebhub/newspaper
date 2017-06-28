@@ -87,7 +87,11 @@
             <article class="block-top block-top-4">
 				<a class="img_488_245" href="/{{slug}}"
 					title="">
-					<img src="{{anh-dai-dien}}" alt="​Cách dùng ‘phím bí mật’ Start của Windows 10"
+					{{#if anh-dai-dien}}
+                    <img src="{{anh-dai-dien}}" alt="{{ghi-chu-anh-dai-dien}}"/>
+                    {{else}}
+                    <img src="https://vignette3.wikia.nocookie.net/lego/images/a/ac/No-Image-Basic.png/revision/latest/scale-to-width-down/480?cb=20130819001030" alt="Facebook Group bổ sung nhiều công cụ mới"/>
+                    {{/if}}
 					/> </a>
 					<h3>
                         {{#with (lookupCategory ../AllCategory category)}}
@@ -104,8 +108,11 @@
                 <article class="block-top block-top-3">
 				<a class="img_488_245" href="/{{slug}}"
 					title="">
-					<img src="{{anh-dai-dien}}" alt="​"
-					/> </a>
+					{{#if anh-dai-dien}}
+                    <img src="{{anh-dai-dien}}" alt="{{ghi-chu-anh-dai-dien}}"/>
+                    {{else}}
+                    <img src="https://vignette3.wikia.nocookie.net/lego/images/a/ac/No-Image-Basic.png/revision/latest/scale-to-width-down/480?cb=20130819001030" alt="Facebook Group bổ sung nhiều công cụ mới"/>
+                    {{/if}} </a>
 					<h3>
                         {{#with (lookupCategory ../AllCategory category)}}
                             <a class="tip" href="/{{href}}">{{displayName}}</a>
@@ -120,56 +127,7 @@
             {{/lt}}
             {{/each}}
 
-			<!--<article class="block-top block-top-3">
-				<a href="http://nhipsongso.tuoitre.vn/tin/20170624/my-tung-ra-ung-dung-di-dong-de-bao-cao-toi-ac-chong-hoi-giao/1337499.html"
-					title="">
-					<img src="http://static.new.tuoitre.vn/tto/i/s490/2017/06/24/us-dt-hoi-giao-jfk-afp-1498276630.jpg" alt="​Mỹ tung ra ứng dụng di động để báo cáo tội ác chống Hồi giáo"
-					/> </a>
-					<h3>
-						<a class="tip" href="index.html">Nhịp sống số</a>
-						<a class="title" href="http://nhipsongso.tuoitre.vn/tin/20170624/my-tung-ra-ung-dung-di-dong-de-bao-cao-toi-ac-chong-hoi-giao/1337499.html"
-							title="​Mỹ tung ra ứng dụng di động để báo cáo tội ác chống Hồi giáo">
-							​Mỹ tung ra ứng dụng di động để báo... </a>
-					</h3>
-					<span class="overlay"></span>
-			</article>
-			<article class="block-top block-top-2">
-				<a href="http://nhipsongso.tuoitre.vn/tin/20170624/google-loai-bo-cac-benh-an-ca-nhan-khoi-ket-qua-tim-kiem/1337436.html"
-					title="">
-					<img src="http://static.new.tuoitre.vn/tto/i/s490/2017/06/24/2017-06-15t073505z-1422643220-rc14ca368d50-rtrmadp-3-indonesia-google-jpg-1498270825.jpg"
-						alt="​Google loại bỏ các bệnh án cá nhân khỏi kết quả tìm kiếm" /> </a>
-					<h3>
-						<a class="tip" href="index.html">Nhịp sống số</a>
-						<a class="title" href="http://nhipsongso.tuoitre.vn/tin/20170624/google-loai-bo-cac-benh-an-ca-nhan-khoi-ket-qua-tim-kiem/1337436.html"
-							title="​Google loại bỏ các bệnh án cá nhân khỏi kết quả tìm kiếm">
-							​Google loại bỏ các bệnh án cá nhân... </a>
-					</h3>
-					<span class="overlay"></span>
-			</article>
-			<article class="block-top block-top-2">
-				<a href="http://nhipsongso.tuoitre.vn/tin/thi-truong/20170623/nam-2017-nganh-game-toan-cau-dat-108-ti-usd/1336956.html" title="">
-					<img src="http://static.new.tuoitre.vn/tto/i/s490/2017/06/23/skull-and-bones-e3-2017--1498215627.jpg" alt="Năm 2017: ngành game toàn cầu đạt 108 tỉ USD"
-					/> </a>
-				<h3>
-					<a class="tip" href="http://nhipsongso.tuoitre.vn/tin/thi-truong">Thị trường</a>
-					<a class="title" href="http://nhipsongso.tuoitre.vn/tin/thi-truong/20170623/nam-2017-nganh-game-toan-cau-dat-108-ti-usd/1336956.html"
-						title="Năm 2017: ngành game toàn cầu đạt 108 tỉ USD">
-						Năm 2017: ngành game toàn cầu đạt 108 tỉ... </a>
-				</h3>
-				<span class="overlay"></span>
-			</article>
-			<article class="block-top block-top-2">
-				<a href="http://nhipsongso.tuoitre.vn/tin/20170623/iphone-8-se-co-camera-kep-va-khong-quet-van-tay/1336905.html" title="">
-					<img src="http://static.new.tuoitre.vn/tto/i/s490/2017/06/23/mobile-fun-iphone-8-case-1498204176.jpg" alt="​iPhone 8 sẽ có camera kép và không quét vân tay?"
-					/> </a>
-				<h3>
-					<a class="tip" href="index.html">Nhịp sống số</a>
-					<a class="title" href="http://nhipsongso.tuoitre.vn/tin/20170623/iphone-8-se-co-camera-kep-va-khong-quet-van-tay/1336905.html"
-						title="​iPhone 8 sẽ có camera kép và không quét vân tay?">
-						​iPhone 8 sẽ có camera kép và không quét... </a>
-				</h3>
-				<span class="overlay"></span>
-			</article>-->
+			
 		</div>
 		<section class="content">
 			<h1 class="title-1"><span>Tin mới nhất</span></h1>

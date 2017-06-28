@@ -3,7 +3,9 @@
     "slug": "bai-viet-mau-suc-khoe",
     "title": "Ăn cá giúp giảm đau khớp",
     "category": "suc-khoe",
-    "tag": [],
+    "tag": [
+        "feature"
+    ],
     "layout": "trang-chi-tiet.html",
     "date": "2017-06-27T14:38:41.000Z",
     "publishDate": "",

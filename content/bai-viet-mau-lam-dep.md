@@ -3,7 +3,9 @@
     "slug": "bai-viet-mau-lam-dep",
     "title": "Khai trương Bệnh viện tạo hình thẩm mỹ Asean tại Hà Nội",
     "category": "suc-khoe.lam-dep",
-    "tag": [],
+    "tag": [
+        "feature"
+    ],
     "layout": "trang-chi-tiet.html",
     "date": "2017-06-27T14:39:08.000Z",
     "publishDate": "",

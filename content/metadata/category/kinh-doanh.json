@@ -1,6 +1,6 @@
 {
     "sortBy": "date",
-    "reverse": false,
+    "reverse": true,
     "metadata": {},
     "displayName": "Kinh Doanh",
     "perPage": 10,

@@ -82,7 +82,7 @@
 	{{> header-menu}}
 	<section class="main">
 		<div class="highlight-top">
-            {{#each (first (withSort AllCategory.files "date") 6)}}
+            {{#each (first (withSort AllCategory.files 'date') 6)}}
             {{#lt @key 2}}
             <article class="block-top block-top-4">
 				<a class="img_488_245" href="/{{slug}}"

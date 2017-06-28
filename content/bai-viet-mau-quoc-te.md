@@ -11,6 +11,7 @@
     "mo-ta-ngan": "Tuy chưa bị hối thúc nhưng Goolge cho biết họ đã ban hành chính sách loại bỏ mọi thông tin liên quan bệnh án cá nhân trong kết quả tìm kiếm.",
     "anh-dai-dien": "http://static.new.tuoitre.vn/tto/i/s626/2017/06/24/2017-06-15t073505z-1422643220-rc14ca368d50-rtrmadp-3-indonesia-google-jpg-1498270825.jpg",
     "tac-gia": "QUOC BAO",
+    "ghi-chu-anh-dai-dien": "Một tấm sticker với nội dung “đánh giá chúng tôi trên Google” được dán tại một cửa hàng máy tính ở Jakarta, Indonesia - Ảnh: Reuters",
     "__content__": ""
 }
 ---

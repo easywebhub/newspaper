@@ -3,7 +3,9 @@
     "slug": "quai-kiet-nguyen-the-vinh-sach-con-khuyet-mot-chuong-bi-tham-chua-tien-ke-ra",
     "title": "'Quái kiệt' Nguyễn Thế Vinh: sách còn khuyết một chương bi thảm chưa tiện kể ra...",
     "category": "van-hoa-giai-tri.van-hoa",
-    "tag": [],
+    "tag": [
+        "feature"
+    ],
     "layout": "trang-chi-tiet.html",
     "date": "2017-06-28T03:45:18.000Z",
     "publishDate": "",

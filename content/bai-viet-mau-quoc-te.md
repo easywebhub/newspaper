@@ -3,7 +3,9 @@
     "slug": "bai-viet-mau-quoc-te",
     "title": "Google loại bỏ các bệnh án cá nhân khỏi kết quả tìm kiếm",
     "category": "thoi-su.quoc-te",
-    "tag": [],
+    "tag": [
+        "feature"
+    ],
     "layout": "trang-chi-tiet.html",
     "date": "2017-06-27T14:32:47.000Z",
     "publishDate": "",

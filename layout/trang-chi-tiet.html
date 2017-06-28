@@ -405,10 +405,10 @@ window.admicro_analytics_q.push({event: "pageviews", domain: "nhipsongso.tuoitre
 			<div class="highlight">
 				<h2 class="title-news">Tin liên quan </h2>
 				<ul class="list-media">
-                    {{#each (lookupCategory AllCategory category 'files')}}
+                    {{#each (first (lookupCategory AllCategory category 'files') 4)}}
 					<li>
-						<a class="img_153_87" title="Tàu điện không người lái, không đường ray" href="http://tuoitre.vn/tin/kinh-te/the-gioi-xe/20170608/tau-dien-khong-nguoi-lai-khong-duong-ray/1328163.html">
-							<img src="http://static.new.tuoitre.vn/tto/i/s440/2017/06/08/tau-hoa-1-1496890132.jpg" alt="" /> </a>
+						<a class="img_153_87" title="{{title}}" href="/{{href}}">
+							<img src="{{and-dai-dien}}" alt="" /> </a>
 						<h4>
 							<a title="Tàu điện không người lái, không đường ray" href="http://tuoitre.vn/tin/kinh-te/the-gioi-xe/20170608/tau-dien-khong-nguoi-lai-khong-duong-ray/1328163.html">
 								{{title}}</a>

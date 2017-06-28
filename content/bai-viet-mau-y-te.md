@@ -8,7 +8,7 @@
     "date": "2017-06-28T04:15:32.000Z",
     "publishDate": "",
     "draft": false,
-    "mo-ta-ngan": "Ngày 27-6, ông Đỗ Văn Hoàng, giám đốc Trung tâm Y tế huyện Phù Mỹ (tỉnh Bình Định), cho biết công an đã niêm phong hồ sơ bện",
+    "mo-ta-ngan": "Ngày 27-6, ông Đỗ Văn Hoàng, giám đốc Trung tâm Y tế huyện Phù Mỹ (tỉnh Bình Định), cho biết công an đã niêm phong hồ sơ bệnh án về trường hợp tử vong của sản phụ Phan Thị Yến Linh (29 tuổi, ở xã Mỹ Quang, huyện Phù Mỹ).",
     "anh-dai-dien": "http://us.cdn.tuoitre.vn/tto/i/s146/2017/06/27/20170625-ttyt-phu-my-1498554559.jpg",
     "tac-gia": "DUY THANH",
     "ghi-chu-anh-dai-dien": "",

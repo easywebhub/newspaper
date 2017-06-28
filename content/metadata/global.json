@@ -1,8 +1,5 @@
 {
-  "title": "Your Website Setting",
-  "url": "https://your-domain.com", 
-  "menu-order" : [
-    "thoi-su",
-    "kinh-doanh"
-  ]
+    "title": "Your Website Setting",
+    "url": "https://your-domain.com",
+    "menu-order": "[\"thoi-su\",\"kinh-doanh\",  \"van-hoa-giai-tri\", \"suc-khoe\", \"hitech\", \"tivi\" , \"nothing\"]"
 }

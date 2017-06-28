@@ -32,7 +32,7 @@
                     <li class="menu-dien-thoai"><a href="/{{href}}" title="{{displayName}}">{{this}}</a></li>
                     {{#each AllCategory.children }}
                         
-                      {{#is name ../this}}
+                      {{#is category ../this}}
                         <li class="menu-dien-thoai"><a href="/{{href}}" title="{{displayName}}">{{displayName}}</a></li>
                        {{/is}}
                     {{/each}}    

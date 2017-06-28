@@ -51,12 +51,20 @@
             }
         },
         "date": {
-            "type": "string",
+            "title": "Thời  gian",
+            "description": "đăng bài viết",
+            "default": "",
             "format": "datetime",
+            "required": false,
+            "readOnly": false,
+            "pattern": "",
             "propertyOrder": 10,
+            "minLength": 0,
+            "maxLength": 140,
             "options": {
                 "hidden": false
-            }
+            },
+            "type": "string"
         },
         "publishDate": {
             "type": "string",

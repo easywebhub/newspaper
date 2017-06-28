@@ -155,8 +155,8 @@
 		<section class="content">
 			<h1 class="title-1"><span>Tin mới nhất</span></h1>
 			<div id="newhot_most_content" class="newhot_most_content">
-                {{#each AllCategory.children}}
-                    {{#each (first this.files 3)}}
+                {{#each (first AllCategory.files 20)}}
+                    <!--{{#each (first this.files 3)}}-->
                     <article class="block-new">
                         <a class="img_254_143" href="/{{slug}}" title="">
                             {{#if anh-dai-dien}}
@@ -165,7 +165,10 @@
                             <img src="https://vignette3.wikia.nocookie.net/lego/images/a/ac/No-Image-Basic.png/revision/latest/scale-to-width-down/480?cb=20130819001030" alt="Facebook Group bổ sung nhiều công cụ mới"/>
                             {{/if}}
                         </a>
-                        <a class="tip" href="/{{../this.href}}">{{../this.displayName}}</a>
+                        <!--<a class="tip" href="/{{../this.href}}">{{../this.displayName}}</a>-->
+                        {{#with (lookupCategory ../AllCategory category)}}
+                            <a class="tip" href="/{{href}}">{{displayName}}</a>
+                        {{/with}}
                         <h3>
                             <a href="/{{slug}}" title="{{title}}">
                             {{title}}</a>
@@ -181,7 +184,7 @@
                         </div>
                         <p>{{mo-ta-ngan}}</p>
                     </article>
-                    {{/each}}
+                    <!--{{/each}}-->
                 {{/each}}
                 
 			

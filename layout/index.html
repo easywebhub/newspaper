@@ -82,7 +82,8 @@
 	{{> header-menu}}
 	<section class="main">
 		<div class="highlight-top">
-            {{#each (first AllCategory.files 2)}}
+            {{#each (first AllCategory.files 6)}}
+            {{#lt @key 2}}
             <article class="block-top block-top-4">
 				<a class="img_488_245" href="/{{slug}}"
 					title="">
@@ -99,6 +100,8 @@
 					</h3>
 					<span class="overlay"></span>
 			</article>
+            {{else}}
+            {{/lt}}
             {{/each}}
 
 			<!--<article class="block-top block-top-3">

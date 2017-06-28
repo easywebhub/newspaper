@@ -1,6 +1,6 @@
 {
     "sortBy": "date",
-    "reverse": false,
+    "reverse": true,
     "metadata": {},
     "displayName": "HITECH",
     "perPage": 10,

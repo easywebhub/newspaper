@@ -1,4 +1,8 @@
 {
   "title": "Your Website Setting",
-  "url": "https://your-domain.com"
+  "url": "https://your-domain.com", 
+  "menu-order" : [
+    "thoi-su",
+    "kinh-doanh"
+  ]
 }

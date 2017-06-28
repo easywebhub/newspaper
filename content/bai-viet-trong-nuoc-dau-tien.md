@@ -1,7 +1,7 @@
 ---json
 {
     "slug": "bai-viet-trong-nuoc-dau-tien",
-    "title": "Bài Viết Trong Nước Đầu Tiên",
+    "title": "Đừng để phụ huynh sợ 'những điều chỉnh hợp lý'",
     "category": "thoi-su.trong-nuoc",
     "tag": [],
     "layout": "trang-chi-tiet.html",
@@ -11,6 +11,7 @@
     "mo-ta-ngan": "TTO - Trong lộ trình thực hiện tham vọng này, nước Pháp dự kiến thử nghiệm tàu cao tốc không người lái chở hàng vào năm 2019 và chở người và",
     "anh-dai-dien": "http://static.new.tuoitre.vn/tto/i/s626/2017/06/19/12684483-1497842081.jpg",
     "tac-gia": "ĐỖ DƯƠNG",
+    "ghi-chu-anh-dai-dien": "",
     "__content__": ""
 }
 ---

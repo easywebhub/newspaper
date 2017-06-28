@@ -9,7 +9,7 @@
     "publishDate": "",
     "draft": false,
     "mo-ta-ngan": "Ăn cá 2 lần hoặc nhiều hơn mỗi tuần liên quan đến giảm triệu chứng bệnh viêm khớp dạng thấp, theo một nghiên cứu mới đây thuộc Đại học y kho",
-    "anh-dai-dien": "",
+    "anh-dai-dien": "http://us.cdn.tuoitre.vn/tto/i/s490/2017/06/28/hinh-3-1487659459-1498616635.jpg",
     "tac-gia": "BS MAI VĂN BÔN",
     "ghi-chu-anh-dai-dien": "",
     "__content__": ""

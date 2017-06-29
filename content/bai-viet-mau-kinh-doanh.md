@@ -9,7 +9,7 @@
     "publishDate": "",
     "draft": false,
     "mo-ta-ngan": "Trạm cũ chấm dứt vai trò, ban mới chưa tiếp nhận, các hộ kinh doanh tại hai chợ đầu mối Hóc Môn và Bình Điền bí đường đưa thịt heo về các tỉ",
-    "anh-dai-dien": "",
+    "anh-dai-dien": "img/obamacare-protest-1498191321.jpg",
     "tac-gia": "N.BÌNH ",
     "ghi-chu-anh-dai-dien": "",
     "__content__": ""

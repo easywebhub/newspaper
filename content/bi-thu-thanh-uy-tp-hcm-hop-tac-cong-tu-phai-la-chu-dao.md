@@ -9,7 +9,7 @@
     "publishDate": "",
     "draft": false,
     "mo-ta-ngan": "Trong bối cảnh hiện nay, hợp tác công tư phải là con đường chủ đạo. TP.HCM phải hệ thống lại các mô hình và có đường hướng rõ ràng hơn về hợp tác công tư, kêu gọi đầu tư vào các dự án giao thông.",
-    "anh-dai-dien": "",
+    "anh-dai-dien": "/img/bi-thu-nguyen-thien-nhan.jpg",
     "tac-gia": "",
     "ghi-chu-anh-dai-dien": "Bí thư Thành ủy TP.HCM Nguyễn Thiện Nhân trò chuyện bên lề với các đại biểu tham dự hội nghị - Ảnh: Tự Trung",
     "__content__": ""

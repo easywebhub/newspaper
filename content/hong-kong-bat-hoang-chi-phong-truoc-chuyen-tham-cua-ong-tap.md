@@ -9,7 +9,7 @@
     "publishDate": "",
     "draft": false,
     "mo-ta-ngan": "Biểu tình nổ ra trước chuyến thăm chính thức đầu tiên của chủ tịch Trung Quốc Tập Cận Bình đến Hong Kong trưa nay. Thủ lĩnh trẻ của phong trào biểu tình bị bắt.",
-    "anh-dai-dien": "",
+    "anh-dai-dien": "/img/bt-hong-chi-phong.jpg",
     "tac-gia": "",
     "ghi-chu-anh-dai-dien": "Lãnh đạo biểu tình Hoàng Chi Phong la hét khi bị cảnh sát bắt đi - Ảnh: AFP",
     "__content__": ""

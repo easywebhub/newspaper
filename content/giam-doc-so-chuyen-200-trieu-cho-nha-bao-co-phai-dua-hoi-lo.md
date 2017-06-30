@@ -9,7 +9,7 @@
     "publishDate": "",
     "draft": false,
     "mo-ta-ngan": "Giám đốc Sở Kế hoạch - đầu tư tỉnh Yên Bái đưa 200 triệu cho nhà báo Duy Phong để nhà báo này không viết bài liên quan đến dinh thự đồ sộ của gia đình ông, đây có phải là hành vi đưa hối lộ?",
-    "anh-dai-dien": "",
+    "anh-dai-dien": "/img/biet-phu - yen-bai.jpg",
     "tac-gia": "",
     "ghi-chu-anh-dai-dien": "Trung tướng Đỗ Kim Tuyến, phó tổng cục trưởng Tổng cục Cảnh sát phòng chống tội phạm, trả lời các câu hỏi của phóng viên báo chí - Ảnh: D.TẤ",
     "__content__": ""

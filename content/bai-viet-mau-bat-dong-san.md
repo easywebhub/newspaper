@@ -3,7 +3,10 @@
     "slug": "bai-viet-mau-bat-dong-san",
     "title": "​Căn hộ khu Đông không ngừng “tăng nhiệt”",
     "category": "kinh-doanh.bat-dong-san",
-    "tag": [],
+    "tag": [
+        "default",
+        "feature"
+    ],
     "layout": "trang-chi-tiet.html",
     "date": "2017-06-27T14:34:58.000Z",
     "publishDate": "",

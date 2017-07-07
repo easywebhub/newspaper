@@ -3,7 +3,9 @@
     "slug": "bai-viet-mau-phap-luat",
     "title": "Cho nhân chứng Mai Phương ngồi phòng riêng, liệu có cần thiết?",
     "category": "thoi-su.phap-luat",
-    "tag": [],
+    "tag": [
+        "feature"
+    ],
     "layout": "trang-chi-tiet.html",
     "date": "2017-06-28T04:17:59.000Z",
     "publishDate": "",

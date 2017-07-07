@@ -3,7 +3,9 @@
     "slug": "bai-viet-mau-hitech",
     "title": "Mỹ tung ra ứng dụng di động để báo cáo tội ác chống Hồi giáo",
     "category": "hitech",
-    "tag": [],
+    "tag": [
+        "feature"
+    ],
     "layout": "trang-chi-tiet.html",
     "date": "2017-06-27T15:01:51.000Z",
     "publishDate": "",

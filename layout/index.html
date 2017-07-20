@@ -339,18 +339,12 @@
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children ">
                                                 <a href="/{{href}}">{{displayName}}</a>
                                                 <ul class="submenu">
-                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category flownews-menu-item-category-id-10">
-                                                        <a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/category/food/">Food</a>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category flownews-menu-item-category-id-19">
-                                                        <a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/category/travel/">Travel</a>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category flownews-menu-item-category-id-7">
-                                                        <a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/category/cars/">Cars</a>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category flownews-menu-item-category-id-18">
-                                                        <a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/category/technology/">Technology</a>
-                                                    </li>
+                                                    {{#each this.children}} 
+                                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category flownews-menu-item-category-id-10">
+                                                            <a href="/{{href}}">{{displayName}}</a>
+                                                        </li>
+                                                    {{/each}}
+
                                                 </ul>
                                             </li>
                                             {{/is}}

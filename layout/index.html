@@ -987,7 +987,10 @@
 														<h2>Popular posts</h2>
 													</div>
 													<div class="flownews-vc-element-posts-article-container">
-                                                        {{#each (first AllCategory.files 8)}}
+                                                        {{#each (first AllCategory.files 11)}}
+                                                        {{#lt @key 3}}
+                                                            
+                                                        {{else}}
                                                             <article class="item-posts first-element-posts col-xs-6  vc-element-post-odd">
 															<div class="article-image col-xs-5">
 																<a href="/{{slug}}"><img class="flownews-vc-thumbs" 
@@ -1013,6 +1016,8 @@
 																</div>
 															</div>
 														</article>
+                                                        {{/lt}}
+                                                            
                                                         {{/each}}
 														
 														

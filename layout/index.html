@@ -955,7 +955,9 @@
 																	<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/06/29/gathering-one-fish-moveth/">{{title}}</a>
 																</h2>
 																<div class="article-category">
-																	<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/category/fashion/" title="View all posts in Fashion">Fashion</a>
+																	{{#with (lookupCategory ../AllCategory category)}}
+                                                                            <a href="/{{href}}" title="View all posts in {{displayName}}">{{displayName}}</a>
+                                                                    {{/with}}
 																</div>
 																<div class="flownews-clear"></div>
 															</div>

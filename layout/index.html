@@ -1026,14 +1026,15 @@
 														<h2>Popular posts</h2>
 													</div>
 													<div class="flownews-vc-element-posts-article-container">
-														<article class="item-posts first-element-posts col-xs-6  vc-element-post-odd">
+                                                        {{#each (first AllCategory.files 8)}}
+                                                            <article class="item-posts first-element-posts col-xs-6  vc-element-post-odd">
 															<div class="article-image col-xs-5">
 																<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/08/13/abundantly-after-together/"><img class="flownews-vc-thumbs" src="wp-content/uploads/2017/02/fashion_14-300x200.jpg" alt="Abundantly after together"></a>
 															</div>
 															<div class="article-info col-xs-7">
 																<div class="article-info-top">
 																	<h3 class="article-title">
-																		<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/08/13/abundantly-after-together/">Abundantly after together</a>
+																		<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/08/13/abundantly-after-together/">{{title}}</a>
 																	</h3>
 																	<div class="article-data"><i class="flownewsicon fa-calendar-o"></i>August 13, 2016</div>
 																	<div class="flownews-clear"></div>
@@ -1047,6 +1048,8 @@
 																</div>
 															</div>
 														</article>
+                                                        {{/each}}
+														
 														
 														<div class="flownews-clear"></div>
 													</div>

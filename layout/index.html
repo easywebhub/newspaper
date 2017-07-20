@@ -944,13 +944,14 @@
 												</script>
 												<div class="wpmp-clear"></div>
 												<div class="flownews-vc-element-posts-carousel flownews-posts-carousel-type2 flownews-vc-element-posts-carousel-1 flownews-vc-element-posts-carousel-item-show-3 element-no-padding">
+                                                    {{#each (first AllCategory.files 3)}}
 													<article class="item-posts first-element-header col-xs-12">
 														<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/06/29/gathering-one-fish-moveth/"><img class="flownews-vc-thumbs" src="wp-content/uploads/2017/02/fashion_07-800x600.jpg" alt="Gathering one fish moveth"></a>
 														<div
 															class="article-info">
 															<div class="article-info-top">
 																<h2 class="article-title">
-																	<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/06/29/gathering-one-fish-moveth/">Gathering one fish moveth</a>
+																	<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/06/29/gathering-one-fish-moveth/">{{title}}</a>
 																</h2>
 																<div class="article-category">
 																	<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/category/fashion/" title="View all posts in Fashion">Fashion</a>
@@ -966,50 +967,7 @@
 														</div>
 														<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/06/29/gathering-one-fish-moveth/" class="header-pattern"></a>
 													</article>
-													<article class="item-posts first-element-header col-xs-12">
-														<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/08/16/beginning-forth-created/"><img class="flownews-vc-thumbs" src="wp-content/uploads/2017/02/fashion_12-800x600.jpg" alt="Beginning forth created"></a>
-														<div
-															class="article-info">
-															<div class="article-info-top">
-																<h2 class="article-title">
-																	<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/08/16/beginning-forth-created/">Beginning forth created</a>
-																</h2>
-																<div class="article-category">
-																	<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/category/fashion/" title="View all posts in Fashion">Fashion</a>
-																</div>
-																<div class="flownews-clear"></div>
-															</div>
-															<div class="article-info-bottom">
-																<div class="article-data"><i class="flownewsicon fa-calendar-o"></i>August 16, 2016</div>
-																<div class="article-separator">|</div>
-																<div class="article-comments"><i class="flownewsicon fa-comment-o"></i>No Comments</div>
-																<div class="flownews-clear"></div>
-															</div>
-														</div>
-														<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/08/16/beginning-forth-created/" class="header-pattern"></a>
-													</article>
-													<article class="item-posts first-element-header col-xs-12">
-														<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/05/20/dominion-winged-good/"><img class="flownews-vc-thumbs" src="wp-content/uploads/2017/02/fashion_06-800x600.jpg" alt="Dominion winged good"></a>
-														<div
-															class="article-info">
-															<div class="article-info-top">
-																<h2 class="article-title">
-																	<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/05/20/dominion-winged-good/">Dominion winged good</a>
-																</h2>
-																<div class="article-category">
-																	<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/category/fashion/" title="View all posts in Fashion">Fashion</a>
-																</div>
-																<div class="flownews-clear"></div>
-															</div>
-															<div class="article-info-bottom">
-																<div class="article-data"><i class="flownewsicon fa-calendar-o"></i>May 20, 2016</div>
-																<div class="article-separator">|</div>
-																<div class="article-comments"><i class="flownewsicon fa-comment-o"></i>No Comments</div>
-																<div class="flownews-clear"></div>
-															</div>
-														</div>
-														<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/05/20/dominion-winged-good/" class="header-pattern"></a>
-													</article>
+													 {{/each}}
 												</div>
 												<div class="flownews-clear"></div>
 											</div>

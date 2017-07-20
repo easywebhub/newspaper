@@ -333,8 +333,8 @@
 											<div class="clearfix"></div>
 										</div>
 									</li>-->
-                                    {{#each global.menu-order}}  //Notes: lặp dựa trên danh sách đã sắp thứ tự 
-                                        {{#each ../AllCategory.children }}  //Notes: lặp tất cả Danh Mục cấp 1 
+                                    {{#each global.menu-order}}  
+                                        {{#each ../AllCategory.children }}  
                                             {{#is this.category ../this}} 
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children ">
                                                 <a href="/{{href}}">{{displayName}}</a>

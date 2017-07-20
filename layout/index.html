@@ -1042,7 +1042,10 @@
 																</div>
 																<div class="article-info-bottom">
 																	<div class="article-category">
-																		<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/category/fashion/" title="View all posts in Fashion">Fashion</a>
+                                                                        {{#with (lookupCategory ../AllCategory category)}}
+                                                                            <a href="/{{href}}" title="View all posts in {{displayName}}">{{displayName}}</a>
+																		
+                                                                        {{/with}}
 																		<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/08/13/abundantly-after-together/"><i class="flownewsicon fa-mail-forward"></i></a>
 																	</div>
 																	<div class="flownews-clear"></div>

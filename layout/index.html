@@ -946,13 +946,13 @@
 												<div class="flownews-vc-element-posts-carousel flownews-posts-carousel-type2 flownews-vc-element-posts-carousel-1 flownews-vc-element-posts-carousel-item-show-3 element-no-padding">
                                                     {{#each (first AllCategory.files 3)}}
 													<article class="item-posts first-element-header col-xs-12">
-														<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/06/29/gathering-one-fish-moveth/"><img class="flownews-vc-thumbs" 
+														<a href="/{{slug}}"><img class="flownews-vc-thumbs" 
                                                         src="{{anh-dai-dien}}" alt="Gathering one fish moveth"></a>
 														<div
 															class="article-info">
 															<div class="article-info-top">
 																<h2 class="article-title">
-																	<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/06/29/gathering-one-fish-moveth/">{{title}}</a>
+																	<a href="/{{slug}}">{{title}}</a>
 																</h2>
 																<div class="article-category">
 																	{{#with (lookupCategory ../AllCategory category)}}

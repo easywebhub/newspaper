@@ -1,10 +1,10 @@
 ---json
 {
-    "slug": "giam-doc-so-kh-dt-yen-bai-toi-cung-dang-la-doi-tuong-dieu-tra-",
+    "slug": "giam-doc-so-kh-dt-yen-bai-toi-cung-dang-la-doi-tuong-dieu-tra",
     "title": "Giám đốc Sở KH-ĐT Yên Bái: 'Tôi cũng đang là đối tượng điều tra'",
     "category": "thoi-su.phap-luat",
     "tag": [],
-    "layout": "404.html",
+    "layout": "trang-chi-tiet.html",
     "date": "2017-06-30T10:03:30.000Z",
     "publishDate": "",
     "draft": false,

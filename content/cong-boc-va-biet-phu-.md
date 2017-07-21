@@ -1,6 +1,6 @@
 ---json
 {
-    "slug": "cong-boc-va-biet-phu-",
+    "slug": "cong-boc-va-biet-phu",
     "title": "Công bộc và 'biệt phủ'",
     "category": "thoi-su.binh-luan",
     "tag": [],

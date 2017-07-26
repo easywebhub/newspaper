@@ -157,7 +157,7 @@
 						<div class="flownews-menu col-sm-11">
 
 							{{> header-menu }}
-                            
+
 						</div>
 						<div class="flownews-search-container col-sm-1">
 							<div class="flownews-search-menu-button">
@@ -588,14 +588,15 @@
 
 			<div class="flownews-content col-xs-9 blog-layout">
 				<h2 class="flownews-title-page-container">
-					<span class="flownews-title-page">Category: Fashion</span>
+					<span class="flownews-title-page">Danh Muc: {{pagination.displayName}}</span>
 				</h2>
 
 				<div class="flownews-element-posts   flownews-posts-layout1 flownews-blog-2-col element-no-padding">
+                    {{#each pagination.files}}
 					<article class="item-posts first-element-posts col-xs-6">
 						<div class="article-image">
-							<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/08/16/beginning-forth-created/">
-								<img src="http://themes.ad-theme.com/wp/flownews_demos/oldnews/wp-content/uploads/2017/02/fashion_12-1200x800.jpg"
+							<a href="/{{slug}}">
+								<img src="{anh-dai-dien}"
 									alt="Beginning forth created"></a>
 							<div class="article-category">
 								<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/category/fashion/" title="View all posts in Fashion">Fashion</a>
@@ -611,12 +612,13 @@
 							</div>
 							<div class="article-info-bottom">
 								<h3 class="article-title">
-									<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/08/16/beginning-forth-created/">Beginning forth created</a>
+									<a href="/{{slug}}">{{title}}</a>
 								</h3>
 								<div class="flownews-clear"></div>
 							</div>
 						</div>
 					</article>
+                    {{/each}}
 					<article class="item-posts first-element-posts col-xs-6">
 						<div class="article-image">
 							<a href="http://themes.ad-theme.com/wp/flownews_demos/oldnews/2016/08/13/abundantly-after-together/">

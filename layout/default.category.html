@@ -618,14 +618,23 @@
 							</div>
 						</div>
 					</article>
-                    {{/each}}
-					
-					<div class="flownews-clear"></div>
-					<div class="flownews-clear"></div>
+                    {{#is @key 1}}
+                    <div class="flownews-clear"></div>
+                    {{/is}}
+                    {{#is @key 3}}
+                    <div class="flownews-clear"></div>
+                    {{/is}}
+                    {{#is @key 5}}
+                    <div class="flownews-clear"></div>
+                    <div class="flownews-clear"></div>
 					<div class="flownews-clear"></div>
 					<div class="flownews-pagination">
 						<div class="flownews-clear"></div>
 					</div>
+                    {{/is}}
+                    {{/each}}
+					
+					
 				</div>
 			</div>
 			<div class="flownews-sidebar col-xs-3">

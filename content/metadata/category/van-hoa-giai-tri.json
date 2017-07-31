@@ -2,7 +2,7 @@
     "sortBy": "date",
     "reverse": true,
     "metadata": {},
-    "displayName": "Văn Hóa Giải Trí",
+    "displayName": "Văn Hóa",
     "perPage": 10,
     "noPageOne": true,
     "layout": "default.category.html",

@@ -5,7 +5,7 @@
     "category": "thoi-su.binh-luan",
     "tag": [],
     "layout": "trang-chi-tiet.html",
-    "date": "2017-07-19T06:40:00.000Z",
+    "date": "2017-07-18T06:40:00.000Z",
     "draft": false,
     "mo-ta-ngan": "",
     "anh-dai-dien": "",

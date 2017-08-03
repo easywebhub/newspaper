@@ -5,8 +5,6 @@
     "category": "thoi-su.binh-luan",
     "tag": [],
     "layout": "trang-chi-tiet.html",
-    "date": "2017-06-28T04:18:49.000Z",
-    "publishDate": "",
     "draft": false,
     "mo-ta-ngan": "Dự luật chăm sóc sức khỏe mới đã được công bố tại Thượng viện Mỹ chờ được thông qua. Tuy nhiên đây là một cuộc vượt ải đầy khó khăn.",
     "anh-dai-dien": "http://static.new.tuoitre.vn/tto/i/s626/2017/06/23/obamacare-protest-1498191321.jpg",

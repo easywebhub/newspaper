@@ -5,8 +5,6 @@
     "category": "thoi-su.binh-luan",
     "tag": [],
     "layout": "trang-chi-tiet.html",
-    "date": "2017-06-30T09:53:01.000Z",
-    "publishDate": "",
     "draft": false,
     "mo-ta-ngan": "Dư luận đang xôn xao về những “biệt phủ” được cho là của một số cán bộ đầu ngành ở Yên Bái. Những “biệt phủ” nằm sừng sững ngay trục đường lớn, hoặc hoành tráng đến mức ai ngang qua cũng phải trầm trồ.\n",
     "anh-dai-dien": "/img/biet-phu - yen-bai.jpg",
